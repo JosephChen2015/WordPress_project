@@ -1,0 +1,292 @@
+/*
+Theme Name: Exponent Child
+Description: Exponent Child Theme
+Author: Brand Exponents
+Template: exponent
+Version: 1.0
+*/
+
+/* amChart - airplan map */
+.body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+        "Segoe UI Symbol";
+}
+
+#chartdiv {
+    width: 100%;
+    height: 850px;
+}
+#air-background{
+    background: linear-gradient(to left,rgba(74,144,226,1), rgba(255,0,0,0) 63.71%)
+}
+/* contact form */
+.exp-form .wpcf7-form-control-wrap {
+	padding:10px;
+}
+.be-form-field-row .be-form-field-col {
+	text-align:center
+}
+@media only screen and (max-width: 767px){
+	.tatsu-row .tatsu-row-wrap:not(tatsu-no-gutter) > .tatsu-row > .tatsu-column {
+	    padding: 0 10px !important;
+	}	
+	.tatsu-row .tatsu-row-wrap:not(tatsu-no-gutter) > .tatsu-row{
+		margin: 0 -10px !important;
+	}
+}
+
+/* Company page custom style */
+#shipping_title::before {
+	content: '';
+	width: 15px;
+	border: 1px #000000 solid;
+	position: relative;
+	left: 57px;
+	display: block;
+}
+
+#shipping_title::after {
+	content: '';
+	width: 15px;
+	border: 1px #000000 solid;
+	position: relative;
+	left: 57px;
+	display: block;
+}
+
+@media screen and (min-width: 370px) {
+	#shipping_title::before {
+	  left: 56px;
+	}
+
+	#shipping_title::after {
+		left: 56px;
+	}
+}
+
+@media screen and (width: 414px) and (height: 736px) {
+	#shipping_title::before {
+	  left: 57px;
+	}
+
+	#shipping_title::after {
+		left: 57px;
+	}
+}
+
+@media screen and (min-width: 500px) {
+  	#shipping_title::before {
+		left: 315px;
+  	}
+
+	#shipping_title::after {
+		left: 315px;
+	}
+}
+
+@media screen and (min-width: 800px) {
+  	#shipping_title::before {
+		left: 383px;
+  	}
+
+	#shipping_title::after {
+		left: 383px;
+	}
+}
+
+@media screen and (min-width: 1050px) {
+	#shipping_title::before {
+	    left: 345px;
+	}
+
+    #shipping_title::after {
+	    left: 345px;
+    }
+}
+
+#shipping_title_en::before {
+	content: '';
+	width: 15px;
+	border: 1px #000000 solid;
+	position: relative;
+	left: 57px;
+	display: block;
+}
+
+#shipping_title_en::after {
+	content: '';
+	width: 15px;
+	border: 1px #000000 solid;
+	position: relative;
+	left: 57px;
+	display: block;
+}
+
+@media screen and (min-width: 370px) {
+	#shipping_title_en::before {
+	  left: 56px;
+	}
+
+	#shipping_title_en::after {
+		left: 56px;
+	}
+}
+
+@media screen and (width: 414px) and (height: 736px) {
+	#shipping_title_en::before {
+	  left: 57px;
+	}
+
+	#shipping_title_en::after {
+		left: 57px;
+	}
+}
+
+@media screen and (min-width: 500px) {
+  	#shipping_title_en::before {
+		left: 315px;
+  	}
+
+	#shipping_title_en::after {
+		left: 315px;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	#shipping_title_en::before {
+	  left: 383px;
+	}
+
+	#shipping_title_en::after {
+		left: 383px;
+	}
+}
+
+@media screen and (min-width: 1050px) {
+  	#shipping_title_en::before {
+		left: 345px;
+  	}
+
+	#shipping_title_en::after {
+		left: 345px;
+	}
+}
+
+#shipping_body::before {
+	content: '';
+	width: 75%;
+	border: 1px #4A90E2 solid;
+	position: relative;
+	left: -42px;
+	display: block;
+}
+
+#shipping_body::after {
+	content: '';
+	width: 75%;
+	border: 1px #4A90E2 solid;
+	position: relative;
+	left: -42px;
+	display: block;
+}
+
+@media screen and (min-width: 500px) {
+	#shipping_body::before {
+		width: 65%;
+		left: -50px;
+		top: -6px;
+	}
+
+	#shipping_body::after {
+		width: 65%;
+		left: -50px;
+		top: 5px;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	#shipping_body::before {
+		width: 60%;
+		left: -52px;
+		top: -101px;
+	}
+
+	#shipping_body::after {
+		width: 60%;
+		left: -52px;
+		top: 102px;
+	}
+}
+
+@media screen and (min-width: 1050px) {
+	#shipping_body::before {
+		width: 70%;
+		left: -92px;
+		top: -111px;
+	}
+
+	#shipping_body::after {
+		width: 70%;
+		left: -92px;
+		top: 111px;
+	}
+}
+
+#shipping_body_en::before {
+	content: '';
+	width: 120px;
+	border: 1px #4A90E2 solid;
+	position: absolute;
+	left: 10px;
+	display: block;
+}
+
+#shipping_body_en::after {
+	content: '';
+	width: 120px;
+	border: 1px #4A90E2 solid;
+	position: absolute;
+	left: 10px;
+	top: 580px;
+	display: block;
+}
+
+@media screen and (min-width: 500px) {
+	#shipping_body_en::before {
+		width: 180px;
+		left: 10px;
+	}
+
+	#shipping_body_en::after {
+		width: 180px;
+		left: 10px;
+		top: 430px;
+	}
+}
+
+@media screen and (min-width: 800px) {
+	#shipping_body_en::before {
+		width: 210px;
+		left: 10px;
+	}
+
+	#shipping_body_en::after {
+		width: 210px;
+		left: 10px;
+		top: 500px;
+	}
+}
+
+@media screen and (min-width: 1050px) {
+	#shipping_body_en::before {
+		width: 260px;
+		left: 10px;
+	}
+
+	#shipping_body_en::after {
+		width: 260px;
+		left: 10px;
+		top: 522px;
+	}
+}

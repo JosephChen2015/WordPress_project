@@ -1,0 +1,8 @@
+{
+	"home_page_title": "Home Insurance",
+	"blog_page_title": "Blog Insurance",
+	"content_plugins": {
+		"be-grid": "BE Grid",
+		"tatsu" : "Tatsu"
+	}
+}

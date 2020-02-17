@@ -1,0 +1,698 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 01:22:42
+* VERSION: 1.3.26
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.3.10                                |7.1.30
+OS__________________: Linux                                 |WINNT
+CREATED_____________: 2020-02-12 00:00:12
+WP VERSION__________: 5.3.2
+DUP VERSION_________: 1.3.26
+DB__________________: 5.6.46
+DB TABLES___________: 50
+DB ROWS_____________: 4,527
+DB FILE SIZE________: 51.96MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.1.30 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.39 (Win64) OpenSSL/1.0.2s PHP/7.1.30
+DOC ROOT____________: "C:/xampp/htdocs/SY_Logistics_Agent"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://localhost/SY_Logistics_Agent/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ENGINE______: "duparchive"
+SET DIR PERMS_______: 0
+DIR PERMS VALUE_____: 644
+SET FILE PERMS______: 0
+FILE PERMS VALUE____: 755
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "20200210_sylogisticsagent_joseph_0e7fb0dc649062ee4238_20200212000012_archive.daf"
+SIZE________________: 249.78MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+>>> DupArchive Extraction Complete
+
+--------------------------------------
+DUPARCHIVE EXTRACTION STATUS
+--------------------------------------
+Archive extracted with no errors.
+
+--------------------------------------
+POST-EXTACT-CHECKS
+--------------------------------------
+
+PERMISSION UPDATES: None Applied
+
+STEP-1 COMPLETE @ 01:22:42 - RUNTIME: 0.0240 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 01:27:13
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 10.3.16 -- Build Server: 5.6.46
+FILE SIZE:	dup-database__0e7fb0d-12000012.sql (56.53MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE:	NO_ZERO_IN_DATE,NO_ZERO_DATE,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[C:/xampp/htdocs/SY_Logistics_Agent/dup-installer/dup-installer-data__0e7fb0d-12000012.sql]
+COLLATE FB:	Off
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	488
+
+wp_blog_versions: (0)
+wp_blogmeta: (0)
+wp_blogs: (1)
+wp_commentmeta: (0)
+wp_comments: (34)
+wp_duplicator_packages: (0)
+wp_links: (0)
+wp_options: (206)
+wp_postmeta: (2768)
+wp_posts: (914)
+wp_registration_log: (0)
+wp_revslider_css: (109)
+wp_revslider_css_bkp: (47)
+wp_revslider_layer_animations: (0)
+wp_revslider_layer_animations_bkp: (0)
+wp_revslider_navigations: (0)
+wp_revslider_navigations_bkp: (0)
+wp_revslider_sliders: (1)
+wp_revslider_sliders_bkp: (0)
+wp_revslider_slides: (1)
+wp_revslider_slides_bkp: (0)
+wp_revslider_static_slides: (1)
+wp_revslider_static_slides_bkp: (0)
+wp_signups: (0)
+wp_site: (1)
+wp_sitemeta: (42)
+wp_term_relationships: (173)
+wp_term_taxonomy: (65)
+wp_termmeta: (14)
+wp_terms: (65)
+wp_usermeta: (62)
+wp_users: (2)
+wp_wc_download_log: (0)
+wp_wc_product_meta_lookup: (0)
+wp_wc_tax_rate_classes: (2)
+wp_wc_webhooks: (0)
+wp_woocommerce_api_keys: (0)
+wp_woocommerce_attribute_taxonomies: (0)
+wp_woocommerce_downloadable_product_permissions: (0)
+wp_woocommerce_log: (0)
+wp_woocommerce_order_itemmeta: (0)
+wp_woocommerce_order_items: (0)
+wp_woocommerce_payment_tokenmeta: (0)
+wp_woocommerce_payment_tokens: (0)
+wp_woocommerce_sessions: (0)
+wp_woocommerce_shipping_zone_locations: (0)
+wp_woocommerce_shipping_zone_methods: (0)
+wp_woocommerce_shipping_zones: (0)
+wp_woocommerce_tax_rate_locations: (0)
+wp_woocommerce_tax_rates: (0)
+Removed '32' cache/transient rows
+
+INSERT DATA RUNTIME: 3.4699 sec.
+STEP-2 COMPLETE @ 01:27:16 - RUNTIME: 3.4921 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 01:28:04
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "SY Logistics Agent"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/home/x5hidyrpft76/public_html"
+path_new______________: "C:/xampp/htdocs/SY_Logistics_Agent"
+siteurl_______________: "http://localhost/SY_Logistics_Agent"
+url_old_______________: "http://sy-freight.com"
+url_new_______________: "http://localhost/SY_Logistics_Agent"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbhost________________: "localhost"
+dbuser________________: "root"
+dbname________________: "SY_Logistics_Agent"
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_username___________: "JosephChen"
+wp_mail_______________: "2015cjy19950905@gmail.com"
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "wp_blog_versions"________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_blogmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_blogs"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/x5hidyrpft76/public_html" ==================> "C:/xampp/htdocs/SY_Logistics_Agent"
+	SEARCH  2:"\/home\/x5hidyrpft76\/public_html" ===============> "C:\/xampp\/htdocs\/SY_Logistics_Agent"
+	SEARCH  3:"%2Fhome%2Fx5hidyrpft76%2Fpublic_html" ============> "C%3A%2Fxampp%2Fhtdocs%2FSY_Logistics_Agent"
+	SEARCH  4:"\home\x5hidyrpft76\public_html" ==================> "C:/xampp/htdocs/SY_Logistics_Agent"
+	SEARCH  5:"\\home\\x5hidyrpft76\\public_html" ===============> "C:\/xampp\/htdocs\/SY_Logistics_Agent"
+	SEARCH  6:"%5Chome%5Cx5hidyrpft76%5Cpublic_html" ============> "C%3A%2Fxampp%2Fhtdocs%2FSY_Logistics_Agent"
+	SEARCH  7:"//sy-freight.com" ================================> "//localhost/SY_Logistics_Agent"
+	SEARCH  8:"\/\/sy-freight.com" ==============================> "\/\/localhost\/SY_Logistics_Agent"
+	SEARCH  9:"%2F%2Fsy-freight.com" ============================> "%2F%2Flocalhost%2FSY_Logistics_Agent"
+	SEARCH 10:"//www.sy-freight.com" ============================> "//localhost/SY_Logistics_Agent"
+	SEARCH 11:"\/\/www.sy-freight.com" ==========================> "\/\/localhost\/SY_Logistics_Agent"
+	SEARCH 12:"%2F%2Fwww.sy-freight.com" ========================> "%2F%2Flocalhost%2FSY_Logistics_Agent"
+	SEARCH 13:"https://localhost/SY_Logistics_Agent" ============> "http://localhost/SY_Logistics_Agent"
+	SEARCH 14:"https:\/\/localhost\/SY_Logistics_Agent" =========> "http:\/\/localhost\/SY_Logistics_Agent"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FSY_Logistics_Agent" ====> "http%3A%2F%2Flocalhost%2FSY_Logistics_Agent"
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:    34][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/x5hidyrpft76/public_html" ==================> "C:/xampp/htdocs/SY_Logistics_Agent"
+	SEARCH  2:"\/home\/x5hidyrpft76\/public_html" ===============> "C:\/xampp\/htdocs\/SY_Logistics_Agent"
+	SEARCH  3:"%2Fhome%2Fx5hidyrpft76%2Fpublic_html" ============> "C%3A%2Fxampp%2Fhtdocs%2FSY_Logistics_Agent"
+	SEARCH  4:"\home\x5hidyrpft76\public_html" ==================> "C:/xampp/htdocs/SY_Logistics_Agent"
+	SEARCH  5:"\\home\\x5hidyrpft76\\public_html" ===============> "C:\/xampp\/htdocs\/SY_Logistics_Agent"
+	SEARCH  6:"%5Chome%5Cx5hidyrpft76%5Cpublic_html" ============> "C%3A%2Fxampp%2Fhtdocs%2FSY_Logistics_Agent"
+	SEARCH  7:"//sy-freight.com" ================================> "//localhost/SY_Logistics_Agent"
+	SEARCH  8:"\/\/sy-freight.com" ==============================> "\/\/localhost\/SY_Logistics_Agent"
+	SEARCH  9:"%2F%2Fsy-freight.com" ============================> "%2F%2Flocalhost%2FSY_Logistics_Agent"
+	SEARCH 10:"//www.sy-freight.com" ============================> "//localhost/SY_Logistics_Agent"
+	SEARCH 11:"\/\/www.sy-freight.com" ==========================> "\/\/localhost\/SY_Logistics_Agent"
+	SEARCH 12:"%2F%2Fwww.sy-freight.com" ========================> "%2F%2Flocalhost%2FSY_Logistics_Agent"
+	SEARCH 13:"https://localhost/SY_Logistics_Agent" ============> "http://localhost/SY_Logistics_Agent"
+	SEARCH 14:"https:\/\/localhost\/SY_Logistics_Agent" =========> "http:\/\/localhost\/SY_Logistics_Agent"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FSY_Logistics_Agent" ====> "http%3A%2F%2Flocalhost%2FSY_Logistics_Agent"
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   206][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/x5hidyrpft76/public_html" ==================> "C:/xampp/htdocs/SY_Logistics_Agent"
+	SEARCH  2:"\/home\/x5hidyrpft76\/public_html" ===============> "C:\/xampp\/htdocs\/SY_Logistics_Agent"
+	SEARCH  3:"%2Fhome%2Fx5hidyrpft76%2Fpublic_html" ============> "C%3A%2Fxampp%2Fhtdocs%2FSY_Logistics_Agent"
+	SEARCH  4:"\home\x5hidyrpft76\public_html" ==================> "C:/xampp/htdocs/SY_Logistics_Agent"
+	SEARCH  5:"\\home\\x5hidyrpft76\\public_html" ===============> "C:\/xampp\/htdocs\/SY_Logistics_Agent"
+	SEARCH  6:"%5Chome%5Cx5hidyrpft76%5Cpublic_html" ============> "C%3A%2Fxampp%2Fhtdocs%2FSY_Logistics_Agent"
+	SEARCH  7:"//sy-freight.com" ================================> "//localhost/SY_Logistics_Agent"
+	SEARCH  8:"\/\/sy-freight.com" ==============================> "\/\/localhost\/SY_Logistics_Agent"
+	SEARCH  9:"%2F%2Fsy-freight.com" ============================> "%2F%2Flocalhost%2FSY_Logistics_Agent"
+	SEARCH 10:"//www.sy-freight.com" ============================> "//localhost/SY_Logistics_Agent"
+	SEARCH 11:"\/\/www.sy-freight.com" ==========================> "\/\/localhost\/SY_Logistics_Agent"
+	SEARCH 12:"%2F%2Fwww.sy-freight.com" ========================> "%2F%2Flocalhost%2FSY_Logistics_Agent"
+	SEARCH 13:"https://localhost/SY_Logistics_Agent" ============> "http://localhost/SY_Logistics_Agent"
+	SEARCH 14:"https:\/\/localhost\/SY_Logistics_Agent" =========> "http:\/\/localhost\/SY_Logistics_Agent"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FSY_Logistics_Agent" ====> "http%3A%2F%2Flocalhost%2FSY_Logistics_Agent"
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:  2768][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/x5hidyrpft76/public_html" ==================> "C:/xampp/htdocs/SY_Logistics_Agent"
+	SEARCH  2:"\/home\/x5hidyrpft76\/public_html" ===============> "C:\/xampp\/htdocs\/SY_Logistics_Agent"
+	SEARCH  3:"%2Fhome%2Fx5hidyrpft76%2Fpublic_html" ============> "C%3A%2Fxampp%2Fhtdocs%2FSY_Logistics_Agent"
+	SEARCH  4:"\home\x5hidyrpft76\public_html" ==================> "C:/xampp/htdocs/SY_Logistics_Agent"
+	SEARCH  5:"\\home\\x5hidyrpft76\\public_html" ===============> "C:\/xampp\/htdocs\/SY_Logistics_Agent"
+	SEARCH  6:"%5Chome%5Cx5hidyrpft76%5Cpublic_html" ============> "C%3A%2Fxampp%2Fhtdocs%2FSY_Logistics_Agent"
+	SEARCH  7:"//sy-freight.com" ================================> "//localhost/SY_Logistics_Agent"
+	SEARCH  8:"\/\/sy-freight.com" ==============================> "\/\/localhost\/SY_Logistics_Agent"
+	SEARCH  9:"%2F%2Fsy-freight.com" ============================> "%2F%2Flocalhost%2FSY_Logistics_Agent"
+	SEARCH 10:"//www.sy-freight.com" ============================> "//localhost/SY_Logistics_Agent"
+	SEARCH 11:"\/\/www.sy-freight.com" ==========================> "\/\/localhost\/SY_Logistics_Agent"
+	SEARCH 12:"%2F%2Fwww.sy-freight.com" ========================> "%2F%2Flocalhost%2FSY_Logistics_Agent"
+	SEARCH 13:"https://localhost/SY_Logistics_Agent" ============> "http://localhost/SY_Logistics_Agent"
+	SEARCH 14:"https:\/\/localhost\/SY_Logistics_Agent" =========> "http:\/\/localhost\/SY_Logistics_Agent"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FSY_Logistics_Agent" ====> "http%3A%2F%2Flocalhost%2FSY_Logistics_Agent"
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:   914][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/x5hidyrpft76/public_html" ==================> "C:/xampp/htdocs/SY_Logistics_Agent"
+	SEARCH  2:"\/home\/x5hidyrpft76\/public_html" ===============> "C:\/xampp\/htdocs\/SY_Logistics_Agent"
+	SEARCH  3:"%2Fhome%2Fx5hidyrpft76%2Fpublic_html" ============> "C%3A%2Fxampp%2Fhtdocs%2FSY_Logistics_Agent"
+	SEARCH  4:"\home\x5hidyrpft76\public_html" ==================> "C:/xampp/htdocs/SY_Logistics_Agent"
+	SEARCH  5:"\\home\\x5hidyrpft76\\public_html" ===============> "C:\/xampp\/htdocs\/SY_Logistics_Agent"
+	SEARCH  6:"%5Chome%5Cx5hidyrpft76%5Cpublic_html" ============> "C%3A%2Fxampp%2Fhtdocs%2FSY_Logistics_Agent"
+	SEARCH  7:"//sy-freight.com" ================================> "//localhost/SY_Logistics_Agent"
+	SEARCH  8:"\/\/sy-freight.com" ==============================> "\/\/localhost\/SY_Logistics_Agent"
+	SEARCH  9:"%2F%2Fsy-freight.com" ============================> "%2F%2Flocalhost%2FSY_Logistics_Agent"
+	SEARCH 10:"//www.sy-freight.com" ============================> "//localhost/SY_Logistics_Agent"
+	SEARCH 11:"\/\/www.sy-freight.com" ==========================> "\/\/localhost\/SY_Logistics_Agent"
+	SEARCH 12:"%2F%2Fwww.sy-freight.com" ========================> "%2F%2Flocalhost%2FSY_Logistics_Agent"
+	SEARCH 13:"https://localhost/SY_Logistics_Agent" ============> "http://localhost/SY_Logistics_Agent"
+	SEARCH 14:"https:\/\/localhost\/SY_Logistics_Agent" =========> "http:\/\/localhost\/SY_Logistics_Agent"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FSY_Logistics_Agent" ====> "http%3A%2F%2Flocalhost%2FSY_Logistics_Agent"
+
+EVALUATE TABLE: "wp_registration_log"_____________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_css"________________________________[ROWS:   109][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/x5hidyrpft76/public_html" ==================> "C:/xampp/htdocs/SY_Logistics_Agent"
+	SEARCH  2:"\/home\/x5hidyrpft76\/public_html" ===============> "C:\/xampp\/htdocs\/SY_Logistics_Agent"
+	SEARCH  3:"%2Fhome%2Fx5hidyrpft76%2Fpublic_html" ============> "C%3A%2Fxampp%2Fhtdocs%2FSY_Logistics_Agent"
+	SEARCH  4:"\home\x5hidyrpft76\public_html" ==================> "C:/xampp/htdocs/SY_Logistics_Agent"
+	SEARCH  5:"\\home\\x5hidyrpft76\\public_html" ===============> "C:\/xampp\/htdocs\/SY_Logistics_Agent"
+	SEARCH  6:"%5Chome%5Cx5hidyrpft76%5Cpublic_html" ============> "C%3A%2Fxampp%2Fhtdocs%2FSY_Logistics_Agent"
+	SEARCH  7:"//sy-freight.com" ================================> "//localhost/SY_Logistics_Agent"
+	SEARCH  8:"\/\/sy-freight.com" ==============================> "\/\/localhost\/SY_Logistics_Agent"
+	SEARCH  9:"%2F%2Fsy-freight.com" ============================> "%2F%2Flocalhost%2FSY_Logistics_Agent"
+	SEARCH 10:"//www.sy-freight.com" ============================> "//localhost/SY_Logistics_Agent"
+	SEARCH 11:"\/\/www.sy-freight.com" ==========================> "\/\/localhost\/SY_Logistics_Agent"
+	SEARCH 12:"%2F%2Fwww.sy-freight.com" ========================> "%2F%2Flocalhost%2FSY_Logistics_Agent"
+	SEARCH 13:"https://localhost/SY_Logistics_Agent" ============> "http://localhost/SY_Logistics_Agent"
+	SEARCH 14:"https:\/\/localhost\/SY_Logistics_Agent" =========> "http:\/\/localhost\/SY_Logistics_Agent"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FSY_Logistics_Agent" ====> "http%3A%2F%2Flocalhost%2FSY_Logistics_Agent"
+
+EVALUATE TABLE: "wp_revslider_css_bkp"____________________________[ROWS:    47][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/x5hidyrpft76/public_html" ==================> "C:/xampp/htdocs/SY_Logistics_Agent"
+	SEARCH  2:"\/home\/x5hidyrpft76\/public_html" ===============> "C:\/xampp\/htdocs\/SY_Logistics_Agent"
+	SEARCH  3:"%2Fhome%2Fx5hidyrpft76%2Fpublic_html" ============> "C%3A%2Fxampp%2Fhtdocs%2FSY_Logistics_Agent"
+	SEARCH  4:"\home\x5hidyrpft76\public_html" ==================> "C:/xampp/htdocs/SY_Logistics_Agent"
+	SEARCH  5:"\\home\\x5hidyrpft76\\public_html" ===============> "C:\/xampp\/htdocs\/SY_Logistics_Agent"
+	SEARCH  6:"%5Chome%5Cx5hidyrpft76%5Cpublic_html" ============> "C%3A%2Fxampp%2Fhtdocs%2FSY_Logistics_Agent"
+	SEARCH  7:"//sy-freight.com" ================================> "//localhost/SY_Logistics_Agent"
+	SEARCH  8:"\/\/sy-freight.com" ==============================> "\/\/localhost\/SY_Logistics_Agent"
+	SEARCH  9:"%2F%2Fsy-freight.com" ============================> "%2F%2Flocalhost%2FSY_Logistics_Agent"
+	SEARCH 10:"//www.sy-freight.com" ============================> "//localhost/SY_Logistics_Agent"
+	SEARCH 11:"\/\/www.sy-freight.com" ==========================> "\/\/localhost\/SY_Logistics_Agent"
+	SEARCH 12:"%2F%2Fwww.sy-freight.com" ========================> "%2F%2Flocalhost%2FSY_Logistics_Agent"
+	SEARCH 13:"https://localhost/SY_Logistics_Agent" ============> "http://localhost/SY_Logistics_Agent"
+	SEARCH 14:"https:\/\/localhost\/SY_Logistics_Agent" =========> "http:\/\/localhost\/SY_Logistics_Agent"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FSY_Logistics_Agent" ====> "http%3A%2F%2Flocalhost%2FSY_Logistics_Agent"
+
+EVALUATE TABLE: "wp_revslider_layer_animations"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_layer_animations_bkp"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_navigations"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_navigations_bkp"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_sliders"____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/x5hidyrpft76/public_html" ==================> "C:/xampp/htdocs/SY_Logistics_Agent"
+	SEARCH  2:"\/home\/x5hidyrpft76\/public_html" ===============> "C:\/xampp\/htdocs\/SY_Logistics_Agent"
+	SEARCH  3:"%2Fhome%2Fx5hidyrpft76%2Fpublic_html" ============> "C%3A%2Fxampp%2Fhtdocs%2FSY_Logistics_Agent"
+	SEARCH  4:"\home\x5hidyrpft76\public_html" ==================> "C:/xampp/htdocs/SY_Logistics_Agent"
+	SEARCH  5:"\\home\\x5hidyrpft76\\public_html" ===============> "C:\/xampp\/htdocs\/SY_Logistics_Agent"
+	SEARCH  6:"%5Chome%5Cx5hidyrpft76%5Cpublic_html" ============> "C%3A%2Fxampp%2Fhtdocs%2FSY_Logistics_Agent"
+	SEARCH  7:"//sy-freight.com" ================================> "//localhost/SY_Logistics_Agent"
+	SEARCH  8:"\/\/sy-freight.com" ==============================> "\/\/localhost\/SY_Logistics_Agent"
+	SEARCH  9:"%2F%2Fsy-freight.com" ============================> "%2F%2Flocalhost%2FSY_Logistics_Agent"
+	SEARCH 10:"//www.sy-freight.com" ============================> "//localhost/SY_Logistics_Agent"
+	SEARCH 11:"\/\/www.sy-freight.com" ==========================> "\/\/localhost\/SY_Logistics_Agent"
+	SEARCH 12:"%2F%2Fwww.sy-freight.com" ========================> "%2F%2Flocalhost%2FSY_Logistics_Agent"
+	SEARCH 13:"https://localhost/SY_Logistics_Agent" ============> "http://localhost/SY_Logistics_Agent"
+	SEARCH 14:"https:\/\/localhost\/SY_Logistics_Agent" =========> "http:\/\/localhost\/SY_Logistics_Agent"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FSY_Logistics_Agent" ====> "http%3A%2F%2Flocalhost%2FSY_Logistics_Agent"
+
+EVALUATE TABLE: "wp_revslider_sliders_bkp"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_slides"_____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/x5hidyrpft76/public_html" ==================> "C:/xampp/htdocs/SY_Logistics_Agent"
+	SEARCH  2:"\/home\/x5hidyrpft76\/public_html" ===============> "C:\/xampp\/htdocs\/SY_Logistics_Agent"
+	SEARCH  3:"%2Fhome%2Fx5hidyrpft76%2Fpublic_html" ============> "C%3A%2Fxampp%2Fhtdocs%2FSY_Logistics_Agent"
+	SEARCH  4:"\home\x5hidyrpft76\public_html" ==================> "C:/xampp/htdocs/SY_Logistics_Agent"
+	SEARCH  5:"\\home\\x5hidyrpft76\\public_html" ===============> "C:\/xampp\/htdocs\/SY_Logistics_Agent"
+	SEARCH  6:"%5Chome%5Cx5hidyrpft76%5Cpublic_html" ============> "C%3A%2Fxampp%2Fhtdocs%2FSY_Logistics_Agent"
+	SEARCH  7:"//sy-freight.com" ================================> "//localhost/SY_Logistics_Agent"
+	SEARCH  8:"\/\/sy-freight.com" ==============================> "\/\/localhost\/SY_Logistics_Agent"
+	SEARCH  9:"%2F%2Fsy-freight.com" ============================> "%2F%2Flocalhost%2FSY_Logistics_Agent"
+	SEARCH 10:"//www.sy-freight.com" ============================> "//localhost/SY_Logistics_Agent"
+	SEARCH 11:"\/\/www.sy-freight.com" ==========================> "\/\/localhost\/SY_Logistics_Agent"
+	SEARCH 12:"%2F%2Fwww.sy-freight.com" ========================> "%2F%2Flocalhost%2FSY_Logistics_Agent"
+	SEARCH 13:"https://localhost/SY_Logistics_Agent" ============> "http://localhost/SY_Logistics_Agent"
+	SEARCH 14:"https:\/\/localhost\/SY_Logistics_Agent" =========> "http:\/\/localhost\/SY_Logistics_Agent"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FSY_Logistics_Agent" ====> "http%3A%2F%2Flocalhost%2FSY_Logistics_Agent"
+
+EVALUATE TABLE: "wp_revslider_slides_bkp"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_static_slides"______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/x5hidyrpft76/public_html" ==================> "C:/xampp/htdocs/SY_Logistics_Agent"
+	SEARCH  2:"\/home\/x5hidyrpft76\/public_html" ===============> "C:\/xampp\/htdocs\/SY_Logistics_Agent"
+	SEARCH  3:"%2Fhome%2Fx5hidyrpft76%2Fpublic_html" ============> "C%3A%2Fxampp%2Fhtdocs%2FSY_Logistics_Agent"
+	SEARCH  4:"\home\x5hidyrpft76\public_html" ==================> "C:/xampp/htdocs/SY_Logistics_Agent"
+	SEARCH  5:"\\home\\x5hidyrpft76\\public_html" ===============> "C:\/xampp\/htdocs\/SY_Logistics_Agent"
+	SEARCH  6:"%5Chome%5Cx5hidyrpft76%5Cpublic_html" ============> "C%3A%2Fxampp%2Fhtdocs%2FSY_Logistics_Agent"
+	SEARCH  7:"//sy-freight.com" ================================> "//localhost/SY_Logistics_Agent"
+	SEARCH  8:"\/\/sy-freight.com" ==============================> "\/\/localhost\/SY_Logistics_Agent"
+	SEARCH  9:"%2F%2Fsy-freight.com" ============================> "%2F%2Flocalhost%2FSY_Logistics_Agent"
+	SEARCH 10:"//www.sy-freight.com" ============================> "//localhost/SY_Logistics_Agent"
+	SEARCH 11:"\/\/www.sy-freight.com" ==========================> "\/\/localhost\/SY_Logistics_Agent"
+	SEARCH 12:"%2F%2Fwww.sy-freight.com" ========================> "%2F%2Flocalhost%2FSY_Logistics_Agent"
+	SEARCH 13:"https://localhost/SY_Logistics_Agent" ============> "http://localhost/SY_Logistics_Agent"
+	SEARCH 14:"https:\/\/localhost\/SY_Logistics_Agent" =========> "http:\/\/localhost\/SY_Logistics_Agent"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FSY_Logistics_Agent" ====> "http%3A%2F%2Flocalhost%2FSY_Logistics_Agent"
+
+EVALUATE TABLE: "wp_revslider_static_slides_bkp"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_signups"______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_site"_________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/x5hidyrpft76/public_html" ==================> "C:/xampp/htdocs/SY_Logistics_Agent"
+	SEARCH  2:"\/home\/x5hidyrpft76\/public_html" ===============> "C:\/xampp\/htdocs\/SY_Logistics_Agent"
+	SEARCH  3:"%2Fhome%2Fx5hidyrpft76%2Fpublic_html" ============> "C%3A%2Fxampp%2Fhtdocs%2FSY_Logistics_Agent"
+	SEARCH  4:"\home\x5hidyrpft76\public_html" ==================> "C:/xampp/htdocs/SY_Logistics_Agent"
+	SEARCH  5:"\\home\\x5hidyrpft76\\public_html" ===============> "C:\/xampp\/htdocs\/SY_Logistics_Agent"
+	SEARCH  6:"%5Chome%5Cx5hidyrpft76%5Cpublic_html" ============> "C%3A%2Fxampp%2Fhtdocs%2FSY_Logistics_Agent"
+	SEARCH  7:"//sy-freight.com" ================================> "//localhost/SY_Logistics_Agent"
+	SEARCH  8:"\/\/sy-freight.com" ==============================> "\/\/localhost\/SY_Logistics_Agent"
+	SEARCH  9:"%2F%2Fsy-freight.com" ============================> "%2F%2Flocalhost%2FSY_Logistics_Agent"
+	SEARCH 10:"//www.sy-freight.com" ============================> "//localhost/SY_Logistics_Agent"
+	SEARCH 11:"\/\/www.sy-freight.com" ==========================> "\/\/localhost\/SY_Logistics_Agent"
+	SEARCH 12:"%2F%2Fwww.sy-freight.com" ========================> "%2F%2Flocalhost%2FSY_Logistics_Agent"
+	SEARCH 13:"https://localhost/SY_Logistics_Agent" ============> "http://localhost/SY_Logistics_Agent"
+	SEARCH 14:"https:\/\/localhost\/SY_Logistics_Agent" =========> "http:\/\/localhost\/SY_Logistics_Agent"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FSY_Logistics_Agent" ====> "http%3A%2F%2Flocalhost%2FSY_Logistics_Agent"
+
+EVALUATE TABLE: "wp_sitemeta"_____________________________________[ROWS:    42][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/x5hidyrpft76/public_html" ==================> "C:/xampp/htdocs/SY_Logistics_Agent"
+	SEARCH  2:"\/home\/x5hidyrpft76\/public_html" ===============> "C:\/xampp\/htdocs\/SY_Logistics_Agent"
+	SEARCH  3:"%2Fhome%2Fx5hidyrpft76%2Fpublic_html" ============> "C%3A%2Fxampp%2Fhtdocs%2FSY_Logistics_Agent"
+	SEARCH  4:"\home\x5hidyrpft76\public_html" ==================> "C:/xampp/htdocs/SY_Logistics_Agent"
+	SEARCH  5:"\\home\\x5hidyrpft76\\public_html" ===============> "C:\/xampp\/htdocs\/SY_Logistics_Agent"
+	SEARCH  6:"%5Chome%5Cx5hidyrpft76%5Cpublic_html" ============> "C%3A%2Fxampp%2Fhtdocs%2FSY_Logistics_Agent"
+	SEARCH  7:"//sy-freight.com" ================================> "//localhost/SY_Logistics_Agent"
+	SEARCH  8:"\/\/sy-freight.com" ==============================> "\/\/localhost\/SY_Logistics_Agent"
+	SEARCH  9:"%2F%2Fsy-freight.com" ============================> "%2F%2Flocalhost%2FSY_Logistics_Agent"
+	SEARCH 10:"//www.sy-freight.com" ============================> "//localhost/SY_Logistics_Agent"
+	SEARCH 11:"\/\/www.sy-freight.com" ==========================> "\/\/localhost\/SY_Logistics_Agent"
+	SEARCH 12:"%2F%2Fwww.sy-freight.com" ========================> "%2F%2Flocalhost%2FSY_Logistics_Agent"
+	SEARCH 13:"https://localhost/SY_Logistics_Agent" ============> "http://localhost/SY_Logistics_Agent"
+	SEARCH 14:"https:\/\/localhost\/SY_Logistics_Agent" =========> "http:\/\/localhost\/SY_Logistics_Agent"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FSY_Logistics_Agent" ====> "http%3A%2F%2Flocalhost%2FSY_Logistics_Agent"
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:   173][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/x5hidyrpft76/public_html" ==================> "C:/xampp/htdocs/SY_Logistics_Agent"
+	SEARCH  2:"\/home\/x5hidyrpft76\/public_html" ===============> "C:\/xampp\/htdocs\/SY_Logistics_Agent"
+	SEARCH  3:"%2Fhome%2Fx5hidyrpft76%2Fpublic_html" ============> "C%3A%2Fxampp%2Fhtdocs%2FSY_Logistics_Agent"
+	SEARCH  4:"\home\x5hidyrpft76\public_html" ==================> "C:/xampp/htdocs/SY_Logistics_Agent"
+	SEARCH  5:"\\home\\x5hidyrpft76\\public_html" ===============> "C:\/xampp\/htdocs\/SY_Logistics_Agent"
+	SEARCH  6:"%5Chome%5Cx5hidyrpft76%5Cpublic_html" ============> "C%3A%2Fxampp%2Fhtdocs%2FSY_Logistics_Agent"
+	SEARCH  7:"//sy-freight.com" ================================> "//localhost/SY_Logistics_Agent"
+	SEARCH  8:"\/\/sy-freight.com" ==============================> "\/\/localhost\/SY_Logistics_Agent"
+	SEARCH  9:"%2F%2Fsy-freight.com" ============================> "%2F%2Flocalhost%2FSY_Logistics_Agent"
+	SEARCH 10:"//www.sy-freight.com" ============================> "//localhost/SY_Logistics_Agent"
+	SEARCH 11:"\/\/www.sy-freight.com" ==========================> "\/\/localhost\/SY_Logistics_Agent"
+	SEARCH 12:"%2F%2Fwww.sy-freight.com" ========================> "%2F%2Flocalhost%2FSY_Logistics_Agent"
+	SEARCH 13:"https://localhost/SY_Logistics_Agent" ============> "http://localhost/SY_Logistics_Agent"
+	SEARCH 14:"https:\/\/localhost\/SY_Logistics_Agent" =========> "http:\/\/localhost\/SY_Logistics_Agent"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FSY_Logistics_Agent" ====> "http%3A%2F%2Flocalhost%2FSY_Logistics_Agent"
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    65][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/x5hidyrpft76/public_html" ==================> "C:/xampp/htdocs/SY_Logistics_Agent"
+	SEARCH  2:"\/home\/x5hidyrpft76\/public_html" ===============> "C:\/xampp\/htdocs\/SY_Logistics_Agent"
+	SEARCH  3:"%2Fhome%2Fx5hidyrpft76%2Fpublic_html" ============> "C%3A%2Fxampp%2Fhtdocs%2FSY_Logistics_Agent"
+	SEARCH  4:"\home\x5hidyrpft76\public_html" ==================> "C:/xampp/htdocs/SY_Logistics_Agent"
+	SEARCH  5:"\\home\\x5hidyrpft76\\public_html" ===============> "C:\/xampp\/htdocs\/SY_Logistics_Agent"
+	SEARCH  6:"%5Chome%5Cx5hidyrpft76%5Cpublic_html" ============> "C%3A%2Fxampp%2Fhtdocs%2FSY_Logistics_Agent"
+	SEARCH  7:"//sy-freight.com" ================================> "//localhost/SY_Logistics_Agent"
+	SEARCH  8:"\/\/sy-freight.com" ==============================> "\/\/localhost\/SY_Logistics_Agent"
+	SEARCH  9:"%2F%2Fsy-freight.com" ============================> "%2F%2Flocalhost%2FSY_Logistics_Agent"
+	SEARCH 10:"//www.sy-freight.com" ============================> "//localhost/SY_Logistics_Agent"
+	SEARCH 11:"\/\/www.sy-freight.com" ==========================> "\/\/localhost\/SY_Logistics_Agent"
+	SEARCH 12:"%2F%2Fwww.sy-freight.com" ========================> "%2F%2Flocalhost%2FSY_Logistics_Agent"
+	SEARCH 13:"https://localhost/SY_Logistics_Agent" ============> "http://localhost/SY_Logistics_Agent"
+	SEARCH 14:"https:\/\/localhost\/SY_Logistics_Agent" =========> "http:\/\/localhost\/SY_Logistics_Agent"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FSY_Logistics_Agent" ====> "http%3A%2F%2Flocalhost%2FSY_Logistics_Agent"
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:    14][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/x5hidyrpft76/public_html" ==================> "C:/xampp/htdocs/SY_Logistics_Agent"
+	SEARCH  2:"\/home\/x5hidyrpft76\/public_html" ===============> "C:\/xampp\/htdocs\/SY_Logistics_Agent"
+	SEARCH  3:"%2Fhome%2Fx5hidyrpft76%2Fpublic_html" ============> "C%3A%2Fxampp%2Fhtdocs%2FSY_Logistics_Agent"
+	SEARCH  4:"\home\x5hidyrpft76\public_html" ==================> "C:/xampp/htdocs/SY_Logistics_Agent"
+	SEARCH  5:"\\home\\x5hidyrpft76\\public_html" ===============> "C:\/xampp\/htdocs\/SY_Logistics_Agent"
+	SEARCH  6:"%5Chome%5Cx5hidyrpft76%5Cpublic_html" ============> "C%3A%2Fxampp%2Fhtdocs%2FSY_Logistics_Agent"
+	SEARCH  7:"//sy-freight.com" ================================> "//localhost/SY_Logistics_Agent"
+	SEARCH  8:"\/\/sy-freight.com" ==============================> "\/\/localhost\/SY_Logistics_Agent"
+	SEARCH  9:"%2F%2Fsy-freight.com" ============================> "%2F%2Flocalhost%2FSY_Logistics_Agent"
+	SEARCH 10:"//www.sy-freight.com" ============================> "//localhost/SY_Logistics_Agent"
+	SEARCH 11:"\/\/www.sy-freight.com" ==========================> "\/\/localhost\/SY_Logistics_Agent"
+	SEARCH 12:"%2F%2Fwww.sy-freight.com" ========================> "%2F%2Flocalhost%2FSY_Logistics_Agent"
+	SEARCH 13:"https://localhost/SY_Logistics_Agent" ============> "http://localhost/SY_Logistics_Agent"
+	SEARCH 14:"https:\/\/localhost\/SY_Logistics_Agent" =========> "http:\/\/localhost\/SY_Logistics_Agent"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FSY_Logistics_Agent" ====> "http%3A%2F%2Flocalhost%2FSY_Logistics_Agent"
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    65][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/x5hidyrpft76/public_html" ==================> "C:/xampp/htdocs/SY_Logistics_Agent"
+	SEARCH  2:"\/home\/x5hidyrpft76\/public_html" ===============> "C:\/xampp\/htdocs\/SY_Logistics_Agent"
+	SEARCH  3:"%2Fhome%2Fx5hidyrpft76%2Fpublic_html" ============> "C%3A%2Fxampp%2Fhtdocs%2FSY_Logistics_Agent"
+	SEARCH  4:"\home\x5hidyrpft76\public_html" ==================> "C:/xampp/htdocs/SY_Logistics_Agent"
+	SEARCH  5:"\\home\\x5hidyrpft76\\public_html" ===============> "C:\/xampp\/htdocs\/SY_Logistics_Agent"
+	SEARCH  6:"%5Chome%5Cx5hidyrpft76%5Cpublic_html" ============> "C%3A%2Fxampp%2Fhtdocs%2FSY_Logistics_Agent"
+	SEARCH  7:"//sy-freight.com" ================================> "//localhost/SY_Logistics_Agent"
+	SEARCH  8:"\/\/sy-freight.com" ==============================> "\/\/localhost\/SY_Logistics_Agent"
+	SEARCH  9:"%2F%2Fsy-freight.com" ============================> "%2F%2Flocalhost%2FSY_Logistics_Agent"
+	SEARCH 10:"//www.sy-freight.com" ============================> "//localhost/SY_Logistics_Agent"
+	SEARCH 11:"\/\/www.sy-freight.com" ==========================> "\/\/localhost\/SY_Logistics_Agent"
+	SEARCH 12:"%2F%2Fwww.sy-freight.com" ========================> "%2F%2Flocalhost%2FSY_Logistics_Agent"
+	SEARCH 13:"https://localhost/SY_Logistics_Agent" ============> "http://localhost/SY_Logistics_Agent"
+	SEARCH 14:"https:\/\/localhost\/SY_Logistics_Agent" =========> "http:\/\/localhost\/SY_Logistics_Agent"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FSY_Logistics_Agent" ====> "http%3A%2F%2Flocalhost%2FSY_Logistics_Agent"
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    62][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/x5hidyrpft76/public_html" ==================> "C:/xampp/htdocs/SY_Logistics_Agent"
+	SEARCH  2:"\/home\/x5hidyrpft76\/public_html" ===============> "C:\/xampp\/htdocs\/SY_Logistics_Agent"
+	SEARCH  3:"%2Fhome%2Fx5hidyrpft76%2Fpublic_html" ============> "C%3A%2Fxampp%2Fhtdocs%2FSY_Logistics_Agent"
+	SEARCH  4:"\home\x5hidyrpft76\public_html" ==================> "C:/xampp/htdocs/SY_Logistics_Agent"
+	SEARCH  5:"\\home\\x5hidyrpft76\\public_html" ===============> "C:\/xampp\/htdocs\/SY_Logistics_Agent"
+	SEARCH  6:"%5Chome%5Cx5hidyrpft76%5Cpublic_html" ============> "C%3A%2Fxampp%2Fhtdocs%2FSY_Logistics_Agent"
+	SEARCH  7:"//sy-freight.com" ================================> "//localhost/SY_Logistics_Agent"
+	SEARCH  8:"\/\/sy-freight.com" ==============================> "\/\/localhost\/SY_Logistics_Agent"
+	SEARCH  9:"%2F%2Fsy-freight.com" ============================> "%2F%2Flocalhost%2FSY_Logistics_Agent"
+	SEARCH 10:"//www.sy-freight.com" ============================> "//localhost/SY_Logistics_Agent"
+	SEARCH 11:"\/\/www.sy-freight.com" ==========================> "\/\/localhost\/SY_Logistics_Agent"
+	SEARCH 12:"%2F%2Fwww.sy-freight.com" ========================> "%2F%2Flocalhost%2FSY_Logistics_Agent"
+	SEARCH 13:"https://localhost/SY_Logistics_Agent" ============> "http://localhost/SY_Logistics_Agent"
+	SEARCH 14:"https:\/\/localhost\/SY_Logistics_Agent" =========> "http:\/\/localhost\/SY_Logistics_Agent"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FSY_Logistics_Agent" ====> "http%3A%2F%2Flocalhost%2FSY_Logistics_Agent"
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/x5hidyrpft76/public_html" ==================> "C:/xampp/htdocs/SY_Logistics_Agent"
+	SEARCH  2:"\/home\/x5hidyrpft76\/public_html" ===============> "C:\/xampp\/htdocs\/SY_Logistics_Agent"
+	SEARCH  3:"%2Fhome%2Fx5hidyrpft76%2Fpublic_html" ============> "C%3A%2Fxampp%2Fhtdocs%2FSY_Logistics_Agent"
+	SEARCH  4:"\home\x5hidyrpft76\public_html" ==================> "C:/xampp/htdocs/SY_Logistics_Agent"
+	SEARCH  5:"\\home\\x5hidyrpft76\\public_html" ===============> "C:\/xampp\/htdocs\/SY_Logistics_Agent"
+	SEARCH  6:"%5Chome%5Cx5hidyrpft76%5Cpublic_html" ============> "C%3A%2Fxampp%2Fhtdocs%2FSY_Logistics_Agent"
+	SEARCH  7:"//sy-freight.com" ================================> "//localhost/SY_Logistics_Agent"
+	SEARCH  8:"\/\/sy-freight.com" ==============================> "\/\/localhost\/SY_Logistics_Agent"
+	SEARCH  9:"%2F%2Fsy-freight.com" ============================> "%2F%2Flocalhost%2FSY_Logistics_Agent"
+	SEARCH 10:"//www.sy-freight.com" ============================> "//localhost/SY_Logistics_Agent"
+	SEARCH 11:"\/\/www.sy-freight.com" ==========================> "\/\/localhost\/SY_Logistics_Agent"
+	SEARCH 12:"%2F%2Fwww.sy-freight.com" ========================> "%2F%2Flocalhost%2FSY_Logistics_Agent"
+	SEARCH 13:"https://localhost/SY_Logistics_Agent" ============> "http://localhost/SY_Logistics_Agent"
+	SEARCH 14:"https:\/\/localhost\/SY_Logistics_Agent" =========> "http:\/\/localhost\/SY_Logistics_Agent"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FSY_Logistics_Agent" ====> "http%3A%2F%2Flocalhost%2FSY_Logistics_Agent"
+
+EVALUATE TABLE: "wp_wc_download_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_product_meta_lookup"_______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_wc_tax_rate_classes"__________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/home/x5hidyrpft76/public_html" ==================> "C:/xampp/htdocs/SY_Logistics_Agent"
+	SEARCH  2:"\/home\/x5hidyrpft76\/public_html" ===============> "C:\/xampp\/htdocs\/SY_Logistics_Agent"
+	SEARCH  3:"%2Fhome%2Fx5hidyrpft76%2Fpublic_html" ============> "C%3A%2Fxampp%2Fhtdocs%2FSY_Logistics_Agent"
+	SEARCH  4:"\home\x5hidyrpft76\public_html" ==================> "C:/xampp/htdocs/SY_Logistics_Agent"
+	SEARCH  5:"\\home\\x5hidyrpft76\\public_html" ===============> "C:\/xampp\/htdocs\/SY_Logistics_Agent"
+	SEARCH  6:"%5Chome%5Cx5hidyrpft76%5Cpublic_html" ============> "C%3A%2Fxampp%2Fhtdocs%2FSY_Logistics_Agent"
+	SEARCH  7:"//sy-freight.com" ================================> "//localhost/SY_Logistics_Agent"
+	SEARCH  8:"\/\/sy-freight.com" ==============================> "\/\/localhost\/SY_Logistics_Agent"
+	SEARCH  9:"%2F%2Fsy-freight.com" ============================> "%2F%2Flocalhost%2FSY_Logistics_Agent"
+	SEARCH 10:"//www.sy-freight.com" ============================> "//localhost/SY_Logistics_Agent"
+	SEARCH 11:"\/\/www.sy-freight.com" ==========================> "\/\/localhost\/SY_Logistics_Agent"
+	SEARCH 12:"%2F%2Fwww.sy-freight.com" ========================> "%2F%2Flocalhost%2FSY_Logistics_Agent"
+	SEARCH 13:"https://localhost/SY_Logistics_Agent" ============> "http://localhost/SY_Logistics_Agent"
+	SEARCH 14:"https:\/\/localhost\/SY_Logistics_Agent" =========> "http:\/\/localhost\/SY_Logistics_Agent"
+	SEARCH 15:"https%3A%2F%2Flocalhost%2FSY_Logistics_Agent" ====> "http%3A%2F%2Flocalhost%2FSY_Logistics_Agent"
+
+EVALUATE TABLE: "wp_wc_webhooks"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_api_keys"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_attribute_taxonomies"_____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_downloadable_product_permissions"_[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_log"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_itemmeta"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_order_items"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokenmeta"________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_payment_tokens"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_sessions"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_locations"__________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zone_methods"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_shipping_zones"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rate_locations"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_woocommerce_tax_rates"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:50 	|	 Rows:4508 	|	 Cells:36067 
+UPDATED:	Tables:5 	|	 Rows:1324 	|	 Cells:1801 
+ERRORS:		0 
+RUNTIME:	2.458800 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+NEW WP-ADMIN USER:
+- New username 'JosephChen' was created successfully allong with MU usermeta.
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE DB_NAME ""SY_Logistics_Agent""
+	UPDATE DB_USER ""root""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	[PHP ERR][ISSUE] MSG:Non-static method DUPX_U::wp_is_stream() should not be called statically [CODE:8192|FILE:C:\xampp\htdocs\SY_Logistics_Agent\dup-installer\classes\utilities\class.u.php|LINE:1648]
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__0e7fb0d-12000012' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+
+====================================
+NOTICES TEST
+====================================
+WP-CONFIG NOTICE: The wp-config.php has following values set [WP_TEMP_DIR].  
+Please validate these values are correct by opening the file and checking the values.
+See the codex link for more details: https://codex.wordpress.org/Editing_wp-config.php
+MEDIA SETTINGS NOTICE: The table 'wp_options' has at least one the following values ['upload_url_path','upload_path'] 
+set please validate settings. These settings can be changed in the wp-admin by going to /wp-admin/options.php'
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 01:28:07 - RUNTIME: 2.5446 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] Info
+	SECTIONS: general
+	LONG MSG:             The following is a list of notices that may need to be fixed in order to finalize your setup. These values should only be investigated if you're running into
+            issues with your site. For more details see the <a href="https://codex.wordpress.org/Editing_wp-config.php" target="_blank">WordPress Codex</a>.
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[WARNING] Media settings notice
+	SECTIONS: general
+	LONG MSG: MEDIA SETTINGS NOTICE: The table 'wp_options' has at least one the following values ['upload_url_path','upload_path'] 
+set please validate settings. These settings can be changed in the wp-admin by going to /wp-admin/options.php'
+
+-----------------------
+[NOTICE] wp-config notice
+	SECTIONS: general
+	LONG MSG: WP-CONFIG NOTICE: The wp-config.php has following values set [WP_TEMP_DIR].  
+Please validate these values are correct by opening the file and checking the values.
+See the codex link for more details: https://codex.wordpress.org/Editing_wp-config.php
+
+====================================
