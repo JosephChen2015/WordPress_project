@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the WordPress - 5.3.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2019-10-15 21:46:45+0000\n"
+"PO-Revision-Date: 2020-02-14 09:42:12+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -10655,40 +10655,6 @@ msgstr "Install Now"
 msgid "Drag and drop to reorder media files."
 msgstr "Drag and drop to reorder media files."
 
-#. translators: Do not translate USERNAME, SITE_NAME, BLOG_URL, PASSWORD: those
-#. are placeholders.
-#: wp-includes/ms-functions.php:1560
-msgid ""
-"Howdy USERNAME,\n"
-"\n"
-"Your new SITE_NAME site has been successfully set up at:\n"
-"BLOG_URL\n"
-"\n"
-"You can log in to the administrator account with the following information:\n"
-"\n"
-"Username: USERNAME\n"
-"Password: PASSWORD\n"
-"Log in here: BLOG_URLwp-login.php\n"
-"\n"
-"We hope you enjoy your new site. Thanks!\n"
-"\n"
-"--The Team @ SITE_NAME"
-msgstr ""
-"G'day USERNAME,\n"
-"\n"
-"Your new SITE_NAME site has been successfully set up at:\n"
-"BLOG_URL\n"
-"\n"
-"You can log in to the administrator account with the following information:\n"
-"\n"
-"Username: USERNAME\n"
-"Password: PASSWORD\n"
-"Log in here: BLOG_URLwp-login.php\n"
-"\n"
-"We hope you enjoy your new site. Thanks!\n"
-"\n"
-"--The Team @ SITE_NAME"
-
 #. translators: Do not translate USERNAME, PASSWORD, LOGINLINK, SITE_NAME:
 #. those are placeholders.
 #: wp-includes/ms-functions.php:2237
@@ -10724,6 +10690,40 @@ msgstr ""
 msgid "<strong>Database tables are missing.</strong> This means that MySQL is not running, WordPress was not installed properly, or someone deleted %s. You really should look at your database now."
 msgstr "<strong>Database tables are missing.</strong> This means that MySQL is not running, WordPress was not installed properly, or someone deleted %s. You really should look at your database now."
 
+#. translators: Do not translate USERNAME, SITE_NAME, BLOG_URL, PASSWORD: those
+#. are placeholders.
+#: wp-includes/ms-functions.php:1560
+msgid ""
+"Howdy USERNAME,\n"
+"\n"
+"Your new SITE_NAME site has been successfully set up at:\n"
+"BLOG_URL\n"
+"\n"
+"You can log in to the administrator account with the following information:\n"
+"\n"
+"Username: USERNAME\n"
+"Password: PASSWORD\n"
+"Log in here: BLOG_URLwp-login.php\n"
+"\n"
+"We hope you enjoy your new site. Thanks!\n"
+"\n"
+"--The Team @ SITE_NAME"
+msgstr ""
+"G'day USERNAME,\n"
+"\n"
+"Your new SITE_NAME site has been successfully set up at:\n"
+"BLOG_URL\n"
+"\n"
+"You can log in to the administrator account with the following information:\n"
+"\n"
+"Username: USERNAME\n"
+"Password: PASSWORD\n"
+"Log in here: BLOG_URLwp-login.php\n"
+"\n"
+"We hope you enjoy your new site. Thanks!\n"
+"\n"
+"--The Team @ SITE_NAME"
+
 #: wp-includes/customize/class-wp-customize-nav-menu-item-setting.php:322
 #: wp-includes/class-wp-customize-nav-menus.php:155
 #: wp-includes/class-wp-customize-nav-menus.php:400
@@ -10737,15 +10737,15 @@ msgstr "Custom Link"
 msgid "<strong>Could not find site %1$s.</strong> Searched for table %2$s in database %3$s. Is that right?"
 msgstr "<strong>Could not find site %1$s.</strong> Searched for table %2$s in database %3$s. Is that right?"
 
+#: wp-includes/post.php:1416 wp-includes/post.php:1417
+msgid "Post type names must be between 1 and 20 characters in length."
+msgstr "Post type names must be between 1 and 20 characters in length."
+
 #. translators: Revision date format, see https://secure.php.net/date
 #: wp-includes/post-template.php:1814 wp-includes/post-template.php:1856
 msgctxt "revision date format"
 msgid "F j, Y @ H:i:s"
-msgstr "F j, Y @ H:i:s"
-
-#: wp-includes/post.php:1416 wp-includes/post.php:1417
-msgid "Post type names must be between 1 and 20 characters in length."
-msgstr "Post type names must be between 1 and 20 characters in length."
+msgstr "j F Y @ H:i:s"
 
 #: wp-includes/media-template.php:938 wp-includes/class-wp-editor.php:1746
 #: wp-includes/class-wp-customize-nav-menus.php:1198
@@ -11010,12 +11010,6 @@ msgstr "Month: %s"
 msgid "Day: %s"
 msgstr "Day: %s"
 
-#. translators: Daily archive title. %s: Date.
-#: wp-includes/general-template.php:1578 wp-includes/general-template.php:2238
-msgctxt "daily archives date format"
-msgid "F j, Y"
-msgstr "F j, Y"
-
 #: wp-includes/general-template.php:1581
 msgctxt "post format archive title"
 msgid "Asides"
@@ -11070,6 +11064,12 @@ msgstr "H Align"
 #: wp-includes/class-wp-editor.php:1198
 msgid "Add to Dictionary"
 msgstr "Add to Dictionary"
+
+#. translators: Daily archive title. %s: Date.
+#: wp-includes/general-template.php:1578 wp-includes/general-template.php:2238
+msgctxt "daily archives date format"
+msgid "F j, Y"
+msgstr "j F Y"
 
 #: wp-includes/class-wp-editor.php:1177
 msgid "No color"
@@ -12440,13 +12440,6 @@ msgstr "#%d (no title)"
 msgid "JavaScript must be enabled to use this feature."
 msgstr "JavaScript must be enabled to use this feature."
 
-#. translators: Date format, see https://secure.php.net/date
-#. translators: Localized date format, see https://secure.php.net/date
-#: wp-includes/script-loader.php:151 wp-includes/script-loader.php:719
-#: wp-includes/media.php:3396 wp-includes/class-wp-locale.php:363
-msgid "F j, Y"
-msgstr "F j, Y"
-
 #. translators: Time format, see https://secure.php.net/date
 #. translators: Localized time format, see https://secure.php.net/date
 #: wp-includes/script-loader.php:148 wp-includes/script-loader.php:717
@@ -12459,7 +12452,14 @@ msgstr "g:i a"
 #: wp-includes/script-loader.php:152 wp-includes/script-loader.php:721
 #: wp-includes/class-wp-locale.php:367
 msgid "F j, Y g:i a"
-msgstr "F j, Y g:i a"
+msgstr "j F Y g:i a"
+
+#. translators: Date format, see https://secure.php.net/date
+#. translators: Localized date format, see https://secure.php.net/date
+#: wp-includes/script-loader.php:151 wp-includes/script-loader.php:719
+#: wp-includes/media.php:3396 wp-includes/class-wp-locale.php:363
+msgid "F j, Y"
+msgstr "j F Y"
 
 #: wp-includes/js/dist/block-editor.js:18399
 msgid "Not set"
@@ -13188,6 +13188,13 @@ msgstr "Sorry, you are not allowed to edit terms in this taxonomy."
 msgid "Sorry, you are not allowed to assign terms in this taxonomy."
 msgstr "Sorry, you are not allowed to assign terms in this taxonomy."
 
+#: wp-includes/class-wp-xmlrpc-server.php:1532
+#: wp-includes/class-wp-xmlrpc-server.php:2151
+#: wp-includes/class-wp-xmlrpc-server.php:2261
+#: wp-includes/class-wp-xmlrpc-server.php:2341 wp-includes/taxonomy.php:2134
+msgid "Invalid term ID."
+msgstr "Invalid term ID."
+
 #: wp-includes/class-wp-term.php:172
 #: wp-includes/class-wp-xmlrpc-server.php:2029
 #: wp-includes/class-wp-xmlrpc-server.php:2134
@@ -13205,13 +13212,6 @@ msgstr "Sorry, you are not allowed to assign terms in this taxonomy."
 #: wp-includes/taxonomy.php:2815
 msgid "Invalid taxonomy."
 msgstr "Invalid taxonomy."
-
-#: wp-includes/class-wp-xmlrpc-server.php:1532
-#: wp-includes/class-wp-xmlrpc-server.php:2151
-#: wp-includes/class-wp-xmlrpc-server.php:2261
-#: wp-includes/class-wp-xmlrpc-server.php:2341 wp-includes/taxonomy.php:2134
-msgid "Invalid term ID."
-msgstr "Invalid term ID."
 
 #: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:95
 #: wp-includes/rest-api/endpoints/class-wp-rest-taxonomies-controller.php:153
@@ -14015,10 +14015,6 @@ msgstr "%1$s is proudly powered by %2$s"
 msgid "You are currently browsing the archives for the %s category."
 msgstr "You are currently browsing the archives for the %s category."
 
-#: wp-includes/theme-compat/sidebar.php:59
-msgid "l, F jS, Y"
-msgstr "l, F jS, Y"
-
 #: wp-includes/theme-compat/sidebar.php:71
 msgid "F, Y"
 msgstr "F, Y"
@@ -14032,6 +14028,10 @@ msgstr "You have searched the %1$s blog archives for <strong>&#8216;%2$s&#8217;<
 #: wp-includes/formatting.php:5049
 msgid "%1$s and %2$s"
 msgstr "%1$s and %2$s"
+
+#: wp-includes/theme-compat/sidebar.php:59
+msgid "l, F jS, Y"
+msgstr "l, jS F Y"
 
 #: wp-includes/taxonomy.php:562
 msgid "Choose from the most used tags"
